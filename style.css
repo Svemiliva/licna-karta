@@ -1,4 +1,5 @@
 .licna-karta {
+    font-family: sans-serif;
     display: grid;
     border: 2px solid gray;
     border-radius: 3%;
@@ -19,8 +20,10 @@
 }
 .sg {
     grid-area: sg;
-    width: 80px;
-    height: 60px ;
+    width: 60px;
+    height: 50px ;
+    align-self: center;
+    justify-self: center;
 }
 .fo {
     grid-area: fo;
@@ -29,49 +32,78 @@
 }
 .rep {
     grid-area: rep;
+    align-self: center;
 }
 .lk {
     grid-area: lk;
+    align-self: center;
 }
 .bp {
     grid-area: bp;
 }
 .pre {
     grid-area: pre;
+    align-self: center;
 }
 .ime {
     grid-area: ime;
+    align-self: center;
 }
 .dr {
     grid-area: dr;
+    align-self: center;
 }
 .cg {
     grid-area: cg;
     width: 100px;
     height: 85px;
+    align-self: end;
+    justify-self: center;
 }
 .pol {
     grid-area: pol;
+    align-self: center;
 }
 .reg {
     grid-area: reg;
+    align-self: center;
 }
 .ss {
     grid-area: ss;
     width: 130px;
     height: 105px;
+    align-self: center;
+    justify-self: center;
 }
 .diz {
     grid-area: diz;
+    align-self: center;
 }
 .dva {
     grid-area: dva;
+    align-self: center;
 }
 .di {
     grid-area: di;
+    align-self: center;
+   
 }
 .po {
     grid-area: po;
     width: 130px;
     height: 30px;
+    align-self: center;
+    justify-self: center;
+}
+.velika-slova {
+    font-size: 18px;
+    font-weight: bold;
+    color: #901;
+    line-height: 14px;
+}
+.mala-slova {
+    font-size: 13px;
+    font-style: italic;
+    color: #aaa;
+    line-height: 9px;
 }
